@@ -1,0 +1,15 @@
+D:\TopBrains Practise\InventoryNameCleanup\bin\Debug\net10.0\InventoryNameCleanup.exe
+D:\TopBrains Practise\InventoryNameCleanup\bin\Debug\net10.0\InventoryNameCleanup.deps.json
+D:\TopBrains Practise\InventoryNameCleanup\bin\Debug\net10.0\InventoryNameCleanup.runtimeconfig.json
+D:\TopBrains Practise\InventoryNameCleanup\bin\Debug\net10.0\InventoryNameCleanup.dll
+D:\TopBrains Practise\InventoryNameCleanup\bin\Debug\net10.0\InventoryNameCleanup.pdb
+D:\TopBrains Practise\InventoryNameCleanup\obj\Debug\net10.0\InventoryNameCleanup.GeneratedMSBuildEditorConfig.editorconfig
+D:\TopBrains Practise\InventoryNameCleanup\obj\Debug\net10.0\InventoryNameCleanup.AssemblyInfoInputs.cache
+D:\TopBrains Practise\InventoryNameCleanup\obj\Debug\net10.0\InventoryNameCleanup.AssemblyInfo.cs
+D:\TopBrains Practise\InventoryNameCleanup\obj\Debug\net10.0\InventoryNameCleanup.csproj.CoreCompileInputs.cache
+D:\TopBrains Practise\InventoryNameCleanup\obj\Debug\net10.0\InventoryNameCleanup.sourcelink.json
+D:\TopBrains Practise\InventoryNameCleanup\obj\Debug\net10.0\InventoryNameCleanup.dll
+D:\TopBrains Practise\InventoryNameCleanup\obj\Debug\net10.0\refint\InventoryNameCleanup.dll
+D:\TopBrains Practise\InventoryNameCleanup\obj\Debug\net10.0\InventoryNameCleanup.pdb
+D:\TopBrains Practise\InventoryNameCleanup\obj\Debug\net10.0\InventoryNameCleanup.genruntimeconfig.cache
+D:\TopBrains Practise\InventoryNameCleanup\obj\Debug\net10.0\ref\InventoryNameCleanup.dll

@@ -1,0 +1,15 @@
+D:\TopBrains Practise\DictonaryLookup\bin\Debug\net10.0\DictonaryLookup.exe
+D:\TopBrains Practise\DictonaryLookup\bin\Debug\net10.0\DictonaryLookup.deps.json
+D:\TopBrains Practise\DictonaryLookup\bin\Debug\net10.0\DictonaryLookup.runtimeconfig.json
+D:\TopBrains Practise\DictonaryLookup\bin\Debug\net10.0\DictonaryLookup.dll
+D:\TopBrains Practise\DictonaryLookup\bin\Debug\net10.0\DictonaryLookup.pdb
+D:\TopBrains Practise\DictonaryLookup\obj\Debug\net10.0\DictonaryLookup.GeneratedMSBuildEditorConfig.editorconfig
+D:\TopBrains Practise\DictonaryLookup\obj\Debug\net10.0\DictonaryLookup.AssemblyInfoInputs.cache
+D:\TopBrains Practise\DictonaryLookup\obj\Debug\net10.0\DictonaryLookup.AssemblyInfo.cs
+D:\TopBrains Practise\DictonaryLookup\obj\Debug\net10.0\DictonaryLookup.csproj.CoreCompileInputs.cache
+D:\TopBrains Practise\DictonaryLookup\obj\Debug\net10.0\DictonaryLookup.sourcelink.json
+D:\TopBrains Practise\DictonaryLookup\obj\Debug\net10.0\DictonaryLookup.dll
+D:\TopBrains Practise\DictonaryLookup\obj\Debug\net10.0\refint\DictonaryLookup.dll
+D:\TopBrains Practise\DictonaryLookup\obj\Debug\net10.0\DictonaryLookup.pdb
+D:\TopBrains Practise\DictonaryLookup\obj\Debug\net10.0\DictonaryLookup.genruntimeconfig.cache
+D:\TopBrains Practise\DictonaryLookup\obj\Debug\net10.0\ref\DictonaryLookup.dll

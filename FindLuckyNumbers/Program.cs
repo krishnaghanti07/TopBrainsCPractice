@@ -19,7 +19,7 @@ public class FindLuckyNumbers
         {
             if (IsLuckyNumber(number))
             {
-                Count++;
+                Count++ ;
             }
         }
         Console.WriteLine("Total Lucky Numbers between " + startRange + " and " + endRange + " is: " + Count) ;
@@ -29,7 +29,6 @@ public class FindLuckyNumbers
     {
         if (!IsPrime(number))
         {
-            // Console.WriteLine(number + " is not prime.") ;
             int x = number ;
             int x2 = number * number ;
 
