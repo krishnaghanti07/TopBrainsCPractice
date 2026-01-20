@@ -1,0 +1,15 @@
+D:\TopBrains Practise\FindLuckyNumbers\obj\Debug\net10.0\FindLuckyNumbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\TopBrains Practise\FindLuckyNumbers\obj\Debug\net10.0\FindLuckyNumbers.AssemblyInfoInputs.cache
+D:\TopBrains Practise\FindLuckyNumbers\obj\Debug\net10.0\FindLuckyNumbers.AssemblyInfo.cs
+D:\TopBrains Practise\FindLuckyNumbers\obj\Debug\net10.0\FindLuckyNumbers.csproj.CoreCompileInputs.cache
+D:\TopBrains Practise\FindLuckyNumbers\obj\Debug\net10.0\FindLuckyNumbers.sourcelink.json
+D:\TopBrains Practise\FindLuckyNumbers\bin\Debug\net10.0\FindLuckyNumbers.exe
+D:\TopBrains Practise\FindLuckyNumbers\bin\Debug\net10.0\FindLuckyNumbers.deps.json
+D:\TopBrains Practise\FindLuckyNumbers\bin\Debug\net10.0\FindLuckyNumbers.runtimeconfig.json
+D:\TopBrains Practise\FindLuckyNumbers\bin\Debug\net10.0\FindLuckyNumbers.dll
+D:\TopBrains Practise\FindLuckyNumbers\bin\Debug\net10.0\FindLuckyNumbers.pdb
+D:\TopBrains Practise\FindLuckyNumbers\obj\Debug\net10.0\FindLuckyNumbers.dll
+D:\TopBrains Practise\FindLuckyNumbers\obj\Debug\net10.0\refint\FindLuckyNumbers.dll
+D:\TopBrains Practise\FindLuckyNumbers\obj\Debug\net10.0\FindLuckyNumbers.pdb
+D:\TopBrains Practise\FindLuckyNumbers\obj\Debug\net10.0\FindLuckyNumbers.genruntimeconfig.cache
+D:\TopBrains Practise\FindLuckyNumbers\obj\Debug\net10.0\ref\FindLuckyNumbers.dll
