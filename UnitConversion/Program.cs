@@ -18,7 +18,7 @@ public class UnitConversion
         }
 
         double cm = feet * 30.48 ;
-        double res = Math.Round (cm, MidpointRounding.AwayFromZero) ;
+        double res = Math.Round (cm, 2) ;
 
         Console.WriteLine("Length in Centimeters (rounded): " + res) ;
 
