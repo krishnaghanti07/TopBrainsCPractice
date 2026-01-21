@@ -8,7 +8,8 @@ public class InventoryNameCleanup
     public static void Main (string[] args)
     {
         // Console.Write("Enter The Product Name : ") ;
-        string productName = Console.ReadLine() ;
+        // string productName = Console.ReadLine() ;
+        string productName = " llapppptop bag " ;
 
         // Remove Consecutive Duplicates
         String cleanName = "" ;
