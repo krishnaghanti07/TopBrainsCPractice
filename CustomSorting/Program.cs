@@ -2,52 +2,50 @@
 // Console.WriteLine("Hello, World!");
 
 
-// Perform Custom Sorting using IComparable and IComparer interfaces
+// Perform Custom Sorting using IComparable interfaces
 
 using System ;
 using System.Collections.Generic ;
 
-public class Student : IComparable<Student>
+class Student : IComparable<Student>
 {
     public string Name { get; set; }
     public int Age { get; set; }
-    public double Marks { get; set; }
+    public int Marks { get; set; }
 
-
-    public int CompareTo (Student other)
+    public override string ToString()
     {
-        if (other == null) return 1 ;
-
-        int result = other.Marks.CompareTo(this.Marks) ;
-        if (result == 0)
-        {
-            result = this.Age.CompareTo(other.Age) ;
-        }
-        return result ;
+        return $"Name: {Name} Id:{Age} Marks: {Marks}";
     }
 
+    public int CompareTo(Student other)
+    {
+        if (other == null) return 1;
+
+        int res = other.Age.CompareTo(this.Age); // descending
+        if (res != 0) return res;
+
+        return this.Marks.CompareTo(other.Marks); // ASCENDING
+
+    }
 }
 
-public class CustomSorting
+class program
 {
-    public static void Main (string[] args)
+    public static void Main()
     {
         List<Student> students = new List<Student>()
         {
-            new Student{Name = "Alice", Age = 20, Marks = 85.5},
-            new Student{Name = "Bob", Age = 22, Marks = 90.0},
-            new Student{Name = "Charlie", Age = 21, Marks = 85.5},
-            new Student{Name = "Peter", Age = 19, Marks = 85.5},
-            new Student{Name = "David", Age = 23, Marks = 95.0},
-            new Student{Name = "Robin", Age = 18, Marks = 95.0}
-        } ;
+            new Student {Name = "Krishna", Age = 100, Marks = 20},
+            new Student {Name = "Shubham", Age = 100, Marks = 10},
+            new Student {Name = "Alto", Age = 200, Marks = 30}
+        };
 
-        students.Sort() ;
+        students.Sort(); // compare to persormaed internally
 
-        Console.WriteLine("Students sorted by Marks (desc) and Age (asc):") ;
-        foreach (var student in students)
+        foreach (var val in students)
         {
-            Console.WriteLine($"Name: {student.Name}, Age: {student.Age}, Marks: {student.Marks}") ;
+            Console.WriteLine(val);
         }
     }
 }
