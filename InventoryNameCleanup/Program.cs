@@ -1,39 +1,29 @@
 ﻿using System;
 using System.Text;
-using System.Globalization;
 
 public class InventoryNameCleanup
 {
     public static void Main(string[] args)
     {
-        // Console.Write("Enter The Product Name : ");
-        string productName = Console.ReadLine();
+        Console.Write("Enter The Product Name: ");
+        string productName = Console.ReadLine() ?? string.Empty;
 
-        string trimmedName = productName.Trim();
+        // Remove Consecutive Duplicates
         StringBuilder cleanName = new StringBuilder();
-
-        bool previousSpace = false;
-
-        foreach (char ch in trimmedName)
+        foreach (char ch in productName)
         {
-            if (ch == ' ')
-            {
-                if (!previousSpace)
-                {
-                    cleanName.Append(ch);
-                    previousSpace = true;
-                }
-            }
-            else
+            if (cleanName.Length == 0 || char.ToLower(cleanName[cleanName.Length - 1]) != char.ToLower(ch))
             {
                 cleanName.Append(ch);
-                previousSpace = false;
             }
         }
 
-        string finalName = CultureInfo.CurrentCulture.TextInfo
-            .ToTitleCase(cleanName.ToString().ToLower());
+        // Trim Leading and Trailing Spaces
+        string finalName = cleanName.ToString().Trim();
 
-        Console.WriteLine( finalName);
+        // Convert to Title Case
+        finalName = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(finalName.ToLower());
+
+        Console.WriteLine("Cleaned Product Name: " + finalName);
     }
 }
