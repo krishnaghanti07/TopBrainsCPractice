@@ -1,27 +1,48 @@
-﻿using System;
-using System.Globalization;
-public class Program
+﻿class Program
 {
     public static void Main()
     {
-        Console.Write("Enter product name: ");
-        string productName = Console.ReadLine();
-        string cleanedName = CleanProductName(productName);
-        Console.WriteLine("Cleaned Product Name: " + cleanedName);
+        string str = " llapppptop bag ";
+        string result = CleanupInventoryName(str);
+       
+        Console.WriteLine($"Output: \"{result}\"");
     }
-    public static string CleanProductName(string name)
+
+    public static string CleanupInventoryName(string input)
     {
-        string trimmedName = name.Trim();
-        string ans = "";
-        foreach(char c in trimmedName)
+        // Step 1: Trim extra spaces
+        string str = input.Trim();
+
+        // Step 2: Remove consecutive duplicate characters
+        string noDuplicates = "";
+        for (int i = 0; i < str.Length; i++)
         {
-            if(ans.Length == 0 || ans[ans.Length-1] != c)
+            if (i == 0 || str[i] != str[i - 1])
             {
-                ans += c;
+                noDuplicates += str[i];
             }
         }
-        TextInfo textInfo = CultureInfo.CurrentCulture.TextInfo;
-        string finalResult = textInfo.ToTitleCase(ans.ToString());
-        return finalResult;
+
+        // Step 3: Remove extra spaces between words (keep only single spaces)
+        string cleaned = "";
+        for (int i = 0; i < noDuplicates.Length; i++)
+        {
+            if (noDuplicates[i] == ' ')
+            {
+                if (i == 0 || noDuplicates[i - 1] != ' ')
+                {
+                    cleaned += ' ';
+                }
+            }
+            else
+            {
+                cleaned += noDuplicates[i];
+            }
+        }
+
+        // Step 4: Convert to TitleCase (using built-in)
+        string titleCase = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(cleaned.ToLower());
+
+        return titleCase;
     }
 }
