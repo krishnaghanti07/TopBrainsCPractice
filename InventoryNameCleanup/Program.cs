@@ -6,7 +6,7 @@ public class InventoryNameCleanup
 {
     public static void Main(string[] args)
     {
-        Console.Write("Enter The Product Name : ");
+        // Console.Write("Enter The Product Name : ");
         string productName = Console.ReadLine();
 
         string trimmedName = productName.Trim();
@@ -34,6 +34,6 @@ public class InventoryNameCleanup
         string finalName = CultureInfo.CurrentCulture.TextInfo
             .ToTitleCase(cleanName.ToString().ToLower());
 
-        Console.WriteLine("Cleaned Product Name: " + finalName);
+        Console.WriteLine( finalName);
     }
 }
