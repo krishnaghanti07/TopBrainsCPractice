@@ -7,7 +7,7 @@ public class InventoryNameCleanup
 {
     public static void Main (string[] args)
     {
-        Console.Write("Enter The Product Name : ") ;
+        // Console.Write("Enter The Product Name : ") ;
         string productName = Console.ReadLine() ;
 
         // Remove Consecutive Duplicates
@@ -26,6 +26,7 @@ public class InventoryNameCleanup
         // Convert to Title Case
         finalName = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(finalName.ToLower()) ;
 
+        // Console.WriteLine("Cleaned Product Name: " + finalName) ;
         Console.WriteLine("Cleaned Product Name: " + finalName) ;
     }
 }
