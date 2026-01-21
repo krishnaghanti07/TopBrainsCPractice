@@ -27,6 +27,6 @@ public class InventoryNameCleanup
         finalName = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(finalName.ToLower()) ;
 
         // Console.WriteLine("Cleaned Product Name: " + finalName) ;
-        Console.WriteLine("Cleaned Product Name: " + finalName) ;
+        Console.WriteLine(finalName) ;
     }
 }
