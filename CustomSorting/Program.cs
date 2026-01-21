@@ -1,51 +1,53 @@
-﻿// See https://aka.ms/new-console-template for more information
-// Console.WriteLine("Hello, World!");
+﻿using System;
+using System.Collections.Generic;
 
-
-// Perform Custom Sorting using IComparable interfaces
-
-using System ;
-using System.Collections.Generic ;
-
-class Student : IComparable<Student>
+public class Student
 {
     public string Name { get; set; }
     public int Age { get; set; }
-    public int Marks { get; set; }
+    public double Marks { get; set; }
+}
 
-    public override string ToString()
+// Custom sorting using IComparer
+public class StudentComparer : IComparer<Student>
+{
+    public int Compare(Student x, Student y)
     {
-        return $"Name: {Name} Id:{Age} Marks: {Marks}";
-    }
+        if (x == null || y == null) return 0;
 
-    public int CompareTo(Student other)
-    {
-        if (other == null) return 1;
+        // Highest Marks first (DESC)
+        int result = y.Marks.CompareTo(x.Marks);
 
-        int res = other.Age.CompareTo(this.Age); // descending
-        if (res != 0) return res;
+        // If Marks equal → Youngest Age first (ASC)
+        if (result == 0)
+        {
+            result = x.Age.CompareTo(y.Age);
+        }
 
-        return this.Marks.CompareTo(other.Marks); // ASCENDING
-
+        return result;
     }
 }
 
-class program
+public class CustomSorting
 {
-    public static void Main()
+    public static void Main(string[] args)
     {
         List<Student> students = new List<Student>()
         {
-            new Student {Name = "Krishna", Age = 100, Marks = 20},
-            new Student {Name = "Shubham", Age = 100, Marks = 10},
-            new Student {Name = "Alto", Age = 200, Marks = 30}
+            new Student { Name = "Alice", Age = 20, Marks = 85.5 },
+            new Student { Name = "Bob", Age = 22, Marks = 90.0 },
+            new Student { Name = "Charlie", Age = 21, Marks = 85.5 },
+            new Student { Name = "Peter", Age = 19, Marks = 85.5 },
+            new Student { Name = "David", Age = 23, Marks = 95.0 },
+            new Student { Name = "Robin", Age = 18, Marks = 95.0 }
         };
 
-        students.Sort(); // compare to persormaed internally
+        students.Sort(new StudentComparer());
 
-        foreach (var val in students)
+        Console.WriteLine("Students sorted by Marks (DESC) and Age (ASC):");
+        foreach (var student in students)
         {
-            Console.WriteLine(val);
+            Console.WriteLine($"Name: {student.Name}, Age: {student.Age}, Marks: {student.Marks}");
         }
     }
 }
