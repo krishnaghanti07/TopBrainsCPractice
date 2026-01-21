@@ -22,7 +22,8 @@ public class FindLuckyNumbers
                 Count++ ;
             }
         }
-        Console.WriteLine("Total Lucky Numbers between " + startRange + " and " + endRange + " is: " + Count) ;
+        // Console.WriteLine("Total Lucky Numbers between " + startRange + " and " + endRange + " is: " + Count) ;
+        Console.WriteLine(Count) ;
     }
 
     public static bool IsLuckyNumber (int number)
