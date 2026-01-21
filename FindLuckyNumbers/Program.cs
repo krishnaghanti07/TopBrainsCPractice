@@ -7,14 +7,14 @@ public class FindLuckyNumbers
 {
     public static void Main (string[] args)
     {
-        Console.Write("Enter The Starting of The Range : ") ;
+        // Console.Write("Enter The Starting of The Range : ") ;
         int startRange = int.Parse(Console.ReadLine()) ;
-        Console.Write("Enter The Ending of The Range : ") ;
+        // Console.Write("Enter The Ending of The Range : ") ;
         int endRange = int.Parse(Console.ReadLine()) ;
 
         int Count = 0 ;
 
-        Console.WriteLine("Lucky Numbers in the given range : ") ;
+        // Console.WriteLine("Lucky Numbers in the given range : ") ;
         for (int number = startRange ; number <= endRange ; number++)
         {
             if (IsLuckyNumber(number))
