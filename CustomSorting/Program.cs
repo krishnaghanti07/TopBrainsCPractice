@@ -15,10 +15,8 @@ public class StudentComparer : IComparer<Student>
     {
         if (x == null || y == null) return 0;
 
-        // 1️⃣ Highest Marks first (DESC)
         int result = y.Marks.CompareTo(x.Marks);
 
-        // 2️⃣ If Marks are equal → Youngest Age first (ASC)
         if (result == 0)
         {
             result = x.Age.CompareTo(y.Age);
