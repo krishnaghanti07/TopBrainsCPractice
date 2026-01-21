@@ -1,26 +1,39 @@
-﻿using System ;
+﻿using System;
+using System.Text;
+using System.Globalization;
 
 public class InventoryNameCleanup
 {
-    public static void Main (string[] args)
+    public static void Main(string[] args)
     {
-        Console.Write("Enter The Product Name : ") ;
-        string productName = Console.ReadLine() ;
+        Console.Write("Enter The Product Name : ");
+        string productName = Console.ReadLine();
 
-        string finalName = productName.Trim() ;
-        String cleanName = "" ;
-        foreach (char ch in finalName)
+        string trimmedName = productName.Trim();
+        StringBuilder cleanName = new StringBuilder();
+
+        bool previousSpace = false;
+
+        foreach (char ch in trimmedName)
         {
-            if (cleanName.Length == 0 || char.ToLower(cleanName[cleanName.Length - 1]) != char.ToLower(ch))
+            if (ch == ' ')
             {
-                cleanName += ch ;
+                if (!previousSpace)
+                {
+                    cleanName.Append(ch);
+                    previousSpace = true;
+                }
+            }
+            else
+            {
+                cleanName.Append(ch);
+                previousSpace = false;
             }
         }
 
-        
+        string finalName = CultureInfo.CurrentCulture.TextInfo
+            .ToTitleCase(cleanName.ToString().ToLower());
 
-        cleanName = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(cleanName.ToLower()) ;
-
-        Console.WriteLine("Cleaned Product Name: " + cleanName) ;
+        Console.WriteLine("Cleaned Product Name: " + finalName);
     }
 }
