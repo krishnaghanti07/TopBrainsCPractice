@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoryNameCleanup")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6adf5626f94a8e7fd875b9ba95f5a14539b43cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32386f719db91ddba0635004b3868e05482bd3b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventoryNameCleanup")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventoryNameCleanup")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

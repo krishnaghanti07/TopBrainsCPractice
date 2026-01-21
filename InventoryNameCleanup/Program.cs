@@ -1,19 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-// Console.WriteLine("Hello, World!");
-
-using System ;
+﻿using System ;
 
 public class InventoryNameCleanup
 {
     public static void Main (string[] args)
     {
-        // Console.Write("Enter The Product Name : ") ;
-        // string productName = Console.ReadLine() ;
-        string productName = " llapppptop bag " ;
+        Console.Write("Enter The Product Name : ") ;
+        string productName = Console.ReadLine() ;
 
-        // Remove Consecutive Duplicates
+        string finalName = productName.Trim() ;
         String cleanName = "" ;
-        foreach (char ch in productName)
+        foreach (char ch in finalName)
         {
             if (cleanName.Length == 0 || char.ToLower(cleanName[cleanName.Length - 1]) != char.ToLower(ch))
             {
@@ -21,13 +17,10 @@ public class InventoryNameCleanup
             }
         }
 
-        // Trim Leading and Trailing Spaces
-        string finalName = cleanName.Trim() ;
+        
 
-        // Convert to Title Case
-        finalName = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(finalName.ToLower()) ;
+        cleanName = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(cleanName.ToLower()) ;
 
-        // Console.WriteLine("Cleaned Product Name: " + finalName) ;
-        Console.WriteLine(finalName) ;
+        Console.WriteLine("Cleaned Product Name: " + cleanName) ;
     }
 }
