@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FindLuckyNumbers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4219ac7ea86565052083a85d2f15291d5ada20c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+780c08eb353487f5ccc69710b220eb285b7a646c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FindLuckyNumbers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FindLuckyNumbers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
