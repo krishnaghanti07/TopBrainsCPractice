@@ -1,0 +1,5 @@
+D:\TopBrains Practise\C# Programming\NUnitAssesmentQ1\obj\Debug\net10.0\NUnitAssesmentQ1.GeneratedMSBuildEditorConfig.editorconfig
+D:\TopBrains Practise\C# Programming\NUnitAssesmentQ1\obj\Debug\net10.0\NUnitAssesmentQ1.AssemblyInfoInputs.cache
+D:\TopBrains Practise\C# Programming\NUnitAssesmentQ1\obj\Debug\net10.0\NUnitAssesmentQ1.AssemblyInfo.cs
+D:\TopBrains Practise\C# Programming\NUnitAssesmentQ1\obj\Debug\net10.0\NUnitAssesmentQ1.csproj.CoreCompileInputs.cache
+D:\TopBrains Practise\C# Programming\NUnitAssesmentQ1\obj\Debug\net10.0\NUnitAssesmentQ1.sourcelink.json
