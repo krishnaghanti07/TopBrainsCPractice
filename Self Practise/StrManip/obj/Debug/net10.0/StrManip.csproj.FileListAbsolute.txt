@@ -1,0 +1,15 @@
+D:\TopBrains Practise\Self Practise\StrManip\bin\Debug\net10.0\StrManip.exe
+D:\TopBrains Practise\Self Practise\StrManip\bin\Debug\net10.0\StrManip.deps.json
+D:\TopBrains Practise\Self Practise\StrManip\bin\Debug\net10.0\StrManip.runtimeconfig.json
+D:\TopBrains Practise\Self Practise\StrManip\bin\Debug\net10.0\StrManip.dll
+D:\TopBrains Practise\Self Practise\StrManip\bin\Debug\net10.0\StrManip.pdb
+D:\TopBrains Practise\Self Practise\StrManip\obj\Debug\net10.0\StrManip.GeneratedMSBuildEditorConfig.editorconfig
+D:\TopBrains Practise\Self Practise\StrManip\obj\Debug\net10.0\StrManip.AssemblyInfoInputs.cache
+D:\TopBrains Practise\Self Practise\StrManip\obj\Debug\net10.0\StrManip.AssemblyInfo.cs
+D:\TopBrains Practise\Self Practise\StrManip\obj\Debug\net10.0\StrManip.csproj.CoreCompileInputs.cache
+D:\TopBrains Practise\Self Practise\StrManip\obj\Debug\net10.0\StrManip.sourcelink.json
+D:\TopBrains Practise\Self Practise\StrManip\obj\Debug\net10.0\StrManip.dll
+D:\TopBrains Practise\Self Practise\StrManip\obj\Debug\net10.0\refint\StrManip.dll
+D:\TopBrains Practise\Self Practise\StrManip\obj\Debug\net10.0\StrManip.pdb
+D:\TopBrains Practise\Self Practise\StrManip\obj\Debug\net10.0\StrManip.genruntimeconfig.cache
+D:\TopBrains Practise\Self Practise\StrManip\obj\Debug\net10.0\ref\StrManip.dll

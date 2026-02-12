@@ -1,0 +1,15 @@
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\bin\Debug\net10.0\BikeRentalAssignment.exe
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\bin\Debug\net10.0\BikeRentalAssignment.deps.json
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\bin\Debug\net10.0\BikeRentalAssignment.runtimeconfig.json
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\bin\Debug\net10.0\BikeRentalAssignment.dll
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\bin\Debug\net10.0\BikeRentalAssignment.pdb
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\obj\Debug\net10.0\BikeRentalAssignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\obj\Debug\net10.0\BikeRentalAssignment.AssemblyInfoInputs.cache
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\obj\Debug\net10.0\BikeRentalAssignment.AssemblyInfo.cs
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\obj\Debug\net10.0\BikeRentalAssignment.csproj.CoreCompileInputs.cache
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\obj\Debug\net10.0\BikeRentalAssignment.sourcelink.json
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\obj\Debug\net10.0\BikeRentalAssignment.dll
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\obj\Debug\net10.0\refint\BikeRentalAssignment.dll
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\obj\Debug\net10.0\BikeRentalAssignment.pdb
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\obj\Debug\net10.0\BikeRentalAssignment.genruntimeconfig.cache
+D:\TopBrains Practise\C# Programming\BikeRentalAssignment\obj\Debug\net10.0\ref\BikeRentalAssignment.dll

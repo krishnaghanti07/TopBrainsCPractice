@@ -1,32 +1,54 @@
-﻿// See https://aka.ms/new-console-template for more information
-// Console.WriteLine("Hello, World!");
+﻿using System;
+using System.Collections.Generic;
 
-using System;
-
-class ParsingSum
+public class Program
 {
-    static void Main()
-    {
-        string[] tokens = { "10", "abc", "20", "999", "-5", "30" };
+public static Stack<Order> st { get; set; } = new Stack<Order>();
 
-        int result = SumParsedIntegers(tokens);
+public static void Main(string[] args)
+{
+Order ord = new Order();
 
-        Console.WriteLine("Sum = " + result);
-    }
+int id = Convert.ToInt32(Console.ReadLine());
+string name = Console.ReadLine();
+string item = Console.ReadLine();
 
-    static int SumParsedIntegers(string[] tokens)
-    {
-        int sum = 0;
+ord.AddOrderDetails(id, name, item);
 
-        foreach (string token in tokens)
-        {
-            int value;
-            if (int.TryParse(token, out value))
-            {
-                sum += value;
-            }
-        }
+Console.WriteLine(ord.GetOrderDetails());
 
-        return sum;
-    }
+ord.RemoveOrderDetails();
+}
+}
+
+public class Order
+{
+public int Id { get; set; }
+public string Name { get; set; }
+public string Item { get; set; }
+
+public Stack<Order> AddOrderDetails(int id, string name, string item)
+{
+Order newOrder = new Order
+{
+Id = id,
+Name = name,
+Item = item
+};
+
+Program.st.Push(newOrder);
+return Program.st;
+}
+
+public string GetOrderDetails()
+{
+Order top = Program.st.Peek();
+return top.Id + " " + top.Name + " " + top.Item;
+}
+
+public Stack<Order> RemoveOrderDetails()
+{
+Program.st.Pop();
+return Program.st;
+}
 }

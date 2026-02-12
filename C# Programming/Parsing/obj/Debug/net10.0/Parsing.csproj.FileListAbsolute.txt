@@ -1,0 +1,15 @@
+D:\TopBrains Practise\C# Programming\Parsing\bin\Debug\net10.0\Parsing.exe
+D:\TopBrains Practise\C# Programming\Parsing\bin\Debug\net10.0\Parsing.deps.json
+D:\TopBrains Practise\C# Programming\Parsing\bin\Debug\net10.0\Parsing.runtimeconfig.json
+D:\TopBrains Practise\C# Programming\Parsing\bin\Debug\net10.0\Parsing.dll
+D:\TopBrains Practise\C# Programming\Parsing\bin\Debug\net10.0\Parsing.pdb
+D:\TopBrains Practise\C# Programming\Parsing\obj\Debug\net10.0\Parsing.GeneratedMSBuildEditorConfig.editorconfig
+D:\TopBrains Practise\C# Programming\Parsing\obj\Debug\net10.0\Parsing.AssemblyInfoInputs.cache
+D:\TopBrains Practise\C# Programming\Parsing\obj\Debug\net10.0\Parsing.AssemblyInfo.cs
+D:\TopBrains Practise\C# Programming\Parsing\obj\Debug\net10.0\Parsing.csproj.CoreCompileInputs.cache
+D:\TopBrains Practise\C# Programming\Parsing\obj\Debug\net10.0\Parsing.sourcelink.json
+D:\TopBrains Practise\C# Programming\Parsing\obj\Debug\net10.0\Parsing.dll
+D:\TopBrains Practise\C# Programming\Parsing\obj\Debug\net10.0\refint\Parsing.dll
+D:\TopBrains Practise\C# Programming\Parsing\obj\Debug\net10.0\Parsing.pdb
+D:\TopBrains Practise\C# Programming\Parsing\obj\Debug\net10.0\Parsing.genruntimeconfig.cache
+D:\TopBrains Practise\C# Programming\Parsing\obj\Debug\net10.0\ref\Parsing.dll
