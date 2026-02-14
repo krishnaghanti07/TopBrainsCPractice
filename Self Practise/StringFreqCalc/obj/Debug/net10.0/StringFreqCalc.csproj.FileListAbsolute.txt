@@ -1,0 +1,15 @@
+D:\TopBrains Practise\Self Practise\StringFreqCalc\bin\Debug\net10.0\StringFreqCalc.exe
+D:\TopBrains Practise\Self Practise\StringFreqCalc\bin\Debug\net10.0\StringFreqCalc.deps.json
+D:\TopBrains Practise\Self Practise\StringFreqCalc\bin\Debug\net10.0\StringFreqCalc.runtimeconfig.json
+D:\TopBrains Practise\Self Practise\StringFreqCalc\bin\Debug\net10.0\StringFreqCalc.dll
+D:\TopBrains Practise\Self Practise\StringFreqCalc\bin\Debug\net10.0\StringFreqCalc.pdb
+D:\TopBrains Practise\Self Practise\StringFreqCalc\obj\Debug\net10.0\StringFreqCalc.GeneratedMSBuildEditorConfig.editorconfig
+D:\TopBrains Practise\Self Practise\StringFreqCalc\obj\Debug\net10.0\StringFreqCalc.AssemblyInfoInputs.cache
+D:\TopBrains Practise\Self Practise\StringFreqCalc\obj\Debug\net10.0\StringFreqCalc.AssemblyInfo.cs
+D:\TopBrains Practise\Self Practise\StringFreqCalc\obj\Debug\net10.0\StringFreqCalc.csproj.CoreCompileInputs.cache
+D:\TopBrains Practise\Self Practise\StringFreqCalc\obj\Debug\net10.0\StringFreqCalc.sourcelink.json
+D:\TopBrains Practise\Self Practise\StringFreqCalc\obj\Debug\net10.0\StringFreqCalc.dll
+D:\TopBrains Practise\Self Practise\StringFreqCalc\obj\Debug\net10.0\refint\StringFreqCalc.dll
+D:\TopBrains Practise\Self Practise\StringFreqCalc\obj\Debug\net10.0\StringFreqCalc.pdb
+D:\TopBrains Practise\Self Practise\StringFreqCalc\obj\Debug\net10.0\StringFreqCalc.genruntimeconfig.cache
+D:\TopBrains Practise\Self Practise\StringFreqCalc\obj\Debug\net10.0\ref\StringFreqCalc.dll

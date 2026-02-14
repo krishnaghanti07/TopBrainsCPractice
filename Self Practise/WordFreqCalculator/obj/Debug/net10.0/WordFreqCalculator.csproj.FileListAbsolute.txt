@@ -1,0 +1,15 @@
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\bin\Debug\net10.0\WordFreqCalculator.exe
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\bin\Debug\net10.0\WordFreqCalculator.deps.json
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\bin\Debug\net10.0\WordFreqCalculator.runtimeconfig.json
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\bin\Debug\net10.0\WordFreqCalculator.dll
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\bin\Debug\net10.0\WordFreqCalculator.pdb
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\obj\Debug\net10.0\WordFreqCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\obj\Debug\net10.0\WordFreqCalculator.AssemblyInfoInputs.cache
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\obj\Debug\net10.0\WordFreqCalculator.AssemblyInfo.cs
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\obj\Debug\net10.0\WordFreqCalculator.csproj.CoreCompileInputs.cache
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\obj\Debug\net10.0\WordFreqCalculator.sourcelink.json
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\obj\Debug\net10.0\WordFreqCalculator.dll
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\obj\Debug\net10.0\refint\WordFreqCalculator.dll
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\obj\Debug\net10.0\WordFreqCalculator.pdb
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\obj\Debug\net10.0\WordFreqCalculator.genruntimeconfig.cache
+D:\TopBrains Practise\Self Practise\WordFreqCalculator\obj\Debug\net10.0\ref\WordFreqCalculator.dll

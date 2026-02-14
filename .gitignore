@@ -1,0 +1,98 @@
+####################################
+# Visual Studio / .NET
+####################################
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio cache
+.vs/
+
+# Debug folders
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+# Rider
+.idea/
+*.sln.iml
+
+####################################
+# .NET Core
+####################################
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+####################################
+# ASP.NET
+####################################
+wwwroot/lib/
+appsettings.Development.json
+
+####################################
+# Logs
+####################################
+*.log
+
+####################################
+# OS generated files
+####################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+####################################
+# Package managers
+####################################
+node_modules/
+bower_components/
+
+####################################
+# Test results
+####################################
+TestResults/
+
+####################################
+# Temporary files
+####################################
+*.tmp
+*.temp
+*.bak
+*.cache
+
+####################################
+# Publish output
+####################################
+publish/
+*.publishsettings
+
+####################################
+# Environment variables
+####################################
+.env
+.env.*
+
+####################################
+# SQL Server
+####################################
+*.mdf
+*.ldf
+
+####################################
+# VS Code
+####################################
+.vscode/

@@ -1,0 +1,14 @@
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\bin\Debug\net8.0\BookStoreApplication.exe
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\bin\Debug\net8.0\BookStoreApplication.deps.json
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\bin\Debug\net8.0\BookStoreApplication.runtimeconfig.json
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\bin\Debug\net8.0\BookStoreApplication.dll
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\bin\Debug\net8.0\BookStoreApplication.pdb
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\obj\Debug\net8.0\BookStoreApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\obj\Debug\net8.0\BookStoreApplication.AssemblyInfoInputs.cache
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\obj\Debug\net8.0\BookStoreApplication.AssemblyInfo.cs
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\obj\Debug\net8.0\BookStoreApplication.csproj.CoreCompileInputs.cache
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\obj\Debug\net8.0\BookStoreApplication.dll
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\obj\Debug\net8.0\refint\BookStoreApplication.dll
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\obj\Debug\net8.0\BookStoreApplication.pdb
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\obj\Debug\net8.0\BookStoreApplication.genruntimeconfig.cache
+D:\Downloads\BookStoreApplication_Boilerplate_2\BookStoreApplication\obj\Debug\net8.0\ref\BookStoreApplication.dll

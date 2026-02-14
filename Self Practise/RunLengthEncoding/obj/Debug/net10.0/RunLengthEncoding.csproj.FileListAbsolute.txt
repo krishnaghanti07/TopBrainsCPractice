@@ -1,0 +1,15 @@
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\bin\Debug\net10.0\RunLengthEncoding.exe
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\bin\Debug\net10.0\RunLengthEncoding.deps.json
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\bin\Debug\net10.0\RunLengthEncoding.runtimeconfig.json
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\bin\Debug\net10.0\RunLengthEncoding.dll
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\bin\Debug\net10.0\RunLengthEncoding.pdb
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\obj\Debug\net10.0\RunLengthEncoding.GeneratedMSBuildEditorConfig.editorconfig
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\obj\Debug\net10.0\RunLengthEncoding.AssemblyInfoInputs.cache
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\obj\Debug\net10.0\RunLengthEncoding.AssemblyInfo.cs
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\obj\Debug\net10.0\RunLengthEncoding.csproj.CoreCompileInputs.cache
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\obj\Debug\net10.0\RunLengthEncoding.sourcelink.json
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\obj\Debug\net10.0\RunLengthEncoding.dll
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\obj\Debug\net10.0\refint\RunLengthEncoding.dll
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\obj\Debug\net10.0\RunLengthEncoding.pdb
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\obj\Debug\net10.0\RunLengthEncoding.genruntimeconfig.cache
+D:\TopBrains Practise\Self Practise\RunLengthEncoding\obj\Debug\net10.0\ref\RunLengthEncoding.dll
