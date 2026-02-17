@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using FlexibleInventorySystem.Domain;
+using FlexibleInventorySystem.Repositories;
+
 
 namespace FlexibleInventorySystem.Services
 {

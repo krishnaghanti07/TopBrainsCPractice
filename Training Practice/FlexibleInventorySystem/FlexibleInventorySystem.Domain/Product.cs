@@ -1,4 +1,7 @@
 using System;
+using FlexibleInventorySystem.Services;
+using FlexibleInventorySystem.Repositories;
+
 
 namespace FlexibleInventorySystem.Domain
 {
@@ -11,9 +14,14 @@ namespace FlexibleInventorySystem.Domain
         public int QuantityInStock { get; protected set; }
         public DateTime CreatedDate { get; protected set; }
 
-        protected Product()
+        protected Product(string name, string sku, decimal price, int quantity)
         {
-            // TODO: Initialize common properties
+            ProductId = Guid.NewGuid();
+            Name = name;
+            SKU = sku;
+            Price = price;
+            QuantityInStock = quantity;
+            CreatedDate = DateTime.UtcNow;
         }
 
         public abstract string GetCategory();
@@ -21,7 +29,10 @@ namespace FlexibleInventorySystem.Domain
 
         public virtual void UpdateStock(int quantity)
         {
-            // TODO: Implement stock update logic
+            if (QuantityInStock + quantity < 0)
+                throw new InvalidOperationException("Insufficient stock.");
+
+            QuantityInStock += quantity;
         }
     }
 }
