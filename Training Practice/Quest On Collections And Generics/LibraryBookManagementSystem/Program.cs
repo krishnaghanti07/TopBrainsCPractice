@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
 
-using System ;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public class Book
 {
@@ -9,7 +11,7 @@ public class Book
     public string Title { get; set; }
     public string Author { get; set; }
     public string Genre { get; set; }
-    public bool IsAvailable { get; set; }
+    public bool IsAvailable { get; set; } = true;
 }
 
 // Generic catalog class
@@ -22,7 +24,27 @@ public class Catalog<T> where T : Book
     // Add item with genre indexing
     public bool AddItem(T item)
     {
-        // TODO: Check ISBN uniqueness, add to list and genre index
+        // Check if ISBN already exists
+        if (_isbnSet.Contains(item.ISBN))
+        {
+            return false; // duplicate ISBN not allowed
+        }
+
+        // Add to main list
+        _items.Add(item);
+
+        // Add ISBN to HashSet
+        _isbnSet.Add(item.ISBN);
+
+        // Add to genre index
+        if (!_genreIndex.ContainsKey(item.Genre))
+        {
+            _genreIndex[item.Genre] = new List<T>();
+        }
+
+        _genreIndex[item.Genre].Add(item);
+
+        return true;
     }
     
     // Get books by genre using indexer
@@ -30,21 +52,28 @@ public class Catalog<T> where T : Book
     {
         get
         {
-            // TODO: Return books by genre or empty list
+            // Return books if genre exists
+            if (_genreIndex.ContainsKey(genre))
+            {
+                return _genreIndex[genre];
+            }
+
+            // Otherwise return empty list
+            return new List<T>();
         }
     }
     
     // Find books using LINQ and lambda expressions
     public IEnumerable<T> FindBooks(Func<T, bool> predicate)
     {
-        // TODO: Use LINQ Where with predicate
+        // Use LINQ Where with predicate
+        return _items.Where(predicate);
     }
 }
 
-
-public class Program
+class Program
 {
-    public static void Main(string[] args)
+    static void Main()
     {
         Catalog<Book> library = new Catalog<Book>();
 
@@ -63,6 +92,5 @@ public class Program
 
         var johnsBooks = library.FindBooks(b => b.Author.Contains("John"));
         Console.WriteLine(johnsBooks.Count()); // Should output: 1
-
     }
 }
